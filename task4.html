@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+
+<body>
+
+    <h1 id="table-title">Student Grades</h1>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>Balnur</td>
+            <td>Web Development</td>
+            <td>95</td>
+        </tr>
+
+        <tr class="highlight-row">
+            <td>Aiym</td>
+            <td>Programming</td>
+            <td>98</td>
+        </tr>
+
+        <tr>
+            <td>Zhannur</td>
+            <td>Mathematics</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Average Grade</td>
+            <td>94</td>
+        </tr>
+    </table>
+    <h1 id="form-title">Feedback Form</h1>
+
+<form class="feedback-form">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="role">Role</label>
+    <select id="role" name="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+    </select>
+
+    <p>Did you like this webpage?</p>
+
+    <label>
+        <input type="radio" name="answer" value="yes">
+        Yes
+    </label>
+
+    <label>
+        <input type="radio" name="answer" value="no">
+        No
+    </label>
+
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="comments"></textarea>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
