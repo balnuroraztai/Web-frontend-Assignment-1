@@ -4,6 +4,8 @@
 **Group:** SE-2524  
 **Course:** Web Frontend
 
+**Published Website:** https://balnuroraztai.github.io/Web-frontend-Assignment-1/
+
 ## Tasks
 
 ### Task 1 — Personal Webpage
